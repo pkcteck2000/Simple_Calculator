@@ -4,9 +4,6 @@ const toggleMode = () => {
     document.getElementById('toggle-button').classList.toggle('toggle-button-dark');
 
     Object.values(document.getElementsByClassName('btn')).forEach(val => {
-        val.classList.toggle('btn-dark');
-    });
-    Object.values(document.getElementsByClassName('btn')).forEach(val => {
         val.classList.toggle('btn-circle-dark');
     });
     Object.values(document.getElementsByClassName('number')).forEach(val => {
