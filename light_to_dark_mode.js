@@ -4,10 +4,13 @@ const toggleMode = () => {
     document.getElementsByClassName('fas')[0].classList.toggle('fa-sun');
 
     Object.values(document.getElementsByClassName('btn')).forEach(val => {
+        val.classList.toggle('btn-dark');
+    });
+    Object.values(document.getElementsByClassName('btn')).forEach(val => {
         val.classList.toggle('btn-circle-dark');
     });
-    Object.values(document.getElementsByClassName('number')).forEach(val => {
-        val.classList.toggle('number-dark');
+    Object.values(document.getElementsByClassName('answer-text')).forEach(val => {
+        val.classList.toggle('text-light');
     });
 }
 
