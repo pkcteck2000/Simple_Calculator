@@ -7,7 +7,7 @@ const evaluate = () => {
     }
     catch (error) {
         //result = error;
-        result = "Error"
+        result = "ERROR"
     }
 }
 
